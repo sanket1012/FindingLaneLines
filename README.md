@@ -1,5 +1,5 @@
 # **Project: Finding Lane Lines on the Road** 
-### This project uses computer vision and image processing tecniques to detect the Lane Lines that are in the visible range of the car. Following explained is an overview of different steps involved in building block of the entire Image Pipeline, potentila shortcomings in the current method and area of improvement
+### This project uses computer vision and image processing techniques to detect the Lane Lines that are in the visible range of the car. Following explained is an overview of different steps involved in building block of the entire Image Pipeline, potentila shortcomings in the current method and area of improvement
 
 ## Overview
 
