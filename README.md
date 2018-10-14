@@ -44,9 +44,9 @@
 
 ## Potential shortcomings with current pipeline:
 
-- There are few problems that occur with roads with steep curves, [here](./test_videos_ouput/)/"challenge.mp4" is the implementation of the current image pipeline on the steep curve video. You can see the lines drawn are randomly placed on each frame of the video.
+- There are few problems that occur with roads with steep curves, [here](./test_videos_output/)/"challenge.mp4" is the implementation of the current image pipeline on the steep curve video. You can see the lines drawn are randomly placed on each frame of the video.
 - Also, due to the end-to-end point selection during drawing lines, for small spots on road within visible range causes an error in the final line drawn on the lanes, you can check [this](./test_videos_output/)/"solidYellowleft.mp4" video and observe how lines get deflected at some points.
 
 ## Possible improvements to current pipeline:
 
-As mentioned in the above shortcomings, instead of selecting the end-to-end points while drawing line, pipeline should select each line segment and draw each of them and extrapolating only that part which is missing between the line segments. This could also probably solve the random line generation in this [video](./test_videos_ouput/)/"challenge.mp4"
+As mentioned in the above shortcomings, instead of selecting the end-to-end points while drawing line, pipeline should select each line segment and draw each of them and extrapolating only that part which is missing between the line segments. This could also probably solve the random line generation in this [video](./test_videos_output/)/"challenge.mp4"
