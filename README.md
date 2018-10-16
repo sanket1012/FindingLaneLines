@@ -49,4 +49,4 @@
 
 ## Possible improvements to current pipeline:
 
-As mentioned in the above shortcomings, instead of selecting the end-to-end points while drawing line, pipeline should select each line segment and draw each of them and extrapolating only that part which is missing between the line segments. This could also probably solve the random line generation in this [video](./test_videos_output/)/"challenge.mp4"
+As mentioned in the above shortcomings, instead of selecting the end-to-end points while drawing line, pipeline should select each line segment and draw each of them and extrapolating only that part which is missing between the line segments. This could also probably solve the random line generation in this [video](./test_videos_output/)/"challenge.mp4". There also other improvements like, Image from an infrared camera can help acheive more accurate solution, adding an outlier reduction approach like RANSAC on the hough lines, using curve fitting to plot the curve instead of straight lines
